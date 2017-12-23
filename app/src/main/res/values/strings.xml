@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SLIIT</string>
+
+    <string name="title_activity_login">SLIIT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="user_name">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="student_name">Student name</string>
+    <string name="student_email">student.k@sliit.lk</string>
+
+    <string name="title_activity_student_avail">student_avail</string>
+    <string name="title_activity_lecturer_avail">LecturerAvailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_others_availability_tab">OthersAvailabilityTabActivity</string>
+</resources>

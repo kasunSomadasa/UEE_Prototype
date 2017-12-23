@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ueeprototype.ueeprototype.MainActivity">
+
+    <ImageView
+        android:id="@+id/loginImageBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/graduation_tinted" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/user"
+        app:civ_border_color="#000000"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="97dp"
+        android:id="@+id/circleImageView"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Nalinda Bandara"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="it15135687@sliit.lk"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="300dip"/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ueeprototype.ueeprototype.shaow_un_available"
+    android:background="@drawable/available">
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/unButton"
+        android:layout_width="136dp"
+        android:layout_height="10dp"
+        android:text="UnAvailable"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        app:sub_btn_background="#ca6d63"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#c74c3c"
+        app:sub_btn_ripple_color="#fde92d14"
+        app:sub_btn_tick_color="@color/white"
+        tools:layout_editor_absoluteY="462dp"
+        tools:layout_editor_absoluteX="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="467dp" />
+
+</RelativeLayout>
